@@ -1,7 +1,5 @@
 <?php
 if(isset($_SESSION['email'])){
-echo("yyyyyyyyy");
-die();
 header("location:products.php");
 }
 ?>
